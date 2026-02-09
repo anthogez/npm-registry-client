@@ -1,0 +1,115 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - antd > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: antd > lodash
+    - node-sass > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: node-sass > lodash
+    - antd > rc-form > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: antd > rc-form > lodash
+    - antd > rc-steps > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: antd > rc-steps > lodash
+    - antd > rc-table > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: antd > rc-table > lodash
+    - antd > rc-tabs > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: antd > rc-tabs > lodash
+    - enzyme > cheerio > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: enzyme > cheerio > lodash
+    - node-sass > sass-graph > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: node-sass > sass-graph > lodash
+    - react-scripts > @babel/core > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > @babel/core > lodash
+    - react-scripts > eslint > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > eslint > lodash
+    - react-scripts > eslint-plugin-flowtype > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > eslint-plugin-flowtype > lodash
+    - react-scripts > html-webpack-plugin > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > html-webpack-plugin > lodash
+    - request-promise-native > request-promise-core > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: request-promise-native > request-promise-core > lodash
+    - react-scripts > webpack-manifest-plugin > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > webpack-manifest-plugin > lodash
+    - antd > rc-editor-mention > rc-editor-core > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: antd > rc-editor-mention > rc-editor-core > lodash
+    - node-sass > gaze > globule > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: node-sass > gaze > globule > lodash
+    - react-scripts > @babel/core > @babel/traverse > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > @babel/core > @babel/traverse > lodash
+    - react-scripts > eslint > inquirer > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > eslint > inquirer > lodash
+    - react-scripts > eslint > table > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > eslint > table > lodash
+    - react-scripts > optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > optimize-css-assets-webpack-plugin >
+          last-call-webpack-plugin > lodash
+    - react-scripts > react-dev-utils > inquirer > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > react-dev-utils > inquirer > lodash
+    - react-scripts > webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > webpack-dev-server > http-proxy-middleware > lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/plugin-transform-block-scoping > lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/plugin-transform-modules-amd > @babel/helper-module-transforms
+          > lodash
+    - react-scripts > jest-environment-jsdom-fourteen > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2026-02-09T06:10:41.511Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest-environment-jsdom-fourteen > jsdom >
+          request-promise-native > request-promise-core > lodash
